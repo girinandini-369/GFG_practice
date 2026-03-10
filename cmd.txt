@@ -1,0 +1,5 @@
+cd "D:\OneDrive\Desktop\Homework\GFG_practice"
+git status
+git add .
+git commit -m "Add march9_03 Java file for practice problem"
+git push origin main
