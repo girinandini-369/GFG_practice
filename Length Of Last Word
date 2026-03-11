@@ -1,0 +1,13 @@
+class Solution {
+    public int lengthOfLastWord(String s) {
+
+        String[]arr=s.split(" ");
+        int n=arr.length;
+        System.out.println(Arrays.toString(arr));
+        String ansS=arr[n-1];
+        int len=ansS.length();
+
+        return len;
+        
+    }
+}
